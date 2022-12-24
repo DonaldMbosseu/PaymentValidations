@@ -14,18 +14,19 @@ We have a gateway taking care of that. We only need to connect via REST API and 
 ## :computer: How to execute
 First run the docker containers with
 
-./mvnw docker compose up -d
+docker compose up -d
 
 Execute from /app
 
 ./mvnw spring-boot:run
 
+Then run the payments with start in the browser.
 ## :memo: Notes
 
 This application is written in Java using the Spring framework.
 The KafkaListeners class implements two listeneres, one for each topic (online and offline).
 The PaymentValidator class is in charge of making the REST call to validate a payment.
 The ErrorLogger class is in charge of making the REST call to log an payment.
-The database operations are handled with Spring Data JPA using repositories for the payment and account models.
+The database operations are handled with Spring Data JPA using repositories for the payment and account models which were created.
 
 
