@@ -1,6 +1,6 @@
 # Challenge
 
-# :brain: #
+# :Book: #
 
 
 ## :computer: How to execute
