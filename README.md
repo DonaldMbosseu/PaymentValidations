@@ -1,5 +1,8 @@
 # Challenge
 
+# :brain: #
+
+
 ## :computer: How to execute
 
 Execute from /app
@@ -14,9 +17,4 @@ The PaymentValidator class is in charge of making the REST call to validate a pa
 The ErrorLogger class is in charge of making the REST call to log an payment.
 The database operations are handled with Spring Data JPA using repositories for the payment and account models.
 
-## :pushpin: Things to improve
 
-This is my first attempt at writing Java. There are surely lots of aspects to improve on top of the obvious ones :
-
-- Add a test suite
-- Add documentation
