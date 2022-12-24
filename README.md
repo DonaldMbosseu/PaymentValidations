@@ -1,6 +1,6 @@
 # Challenge
 
-# :Book: #
+# :book: #
 
 
 ## :computer: How to execute
