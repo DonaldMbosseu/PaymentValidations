@@ -1,6 +1,6 @@
 # Challenge
 
-# :book: #
+# :book: # Aim
 In this project, we receive payments from clients, online and offline.
 All valid payments should be stored in payment database, regardless of payment type.
 Futhermore, each time we store a payment in the database we should update the account information with the last payment date.
